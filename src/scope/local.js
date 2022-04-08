@@ -3,4 +3,4 @@ const helloWorld = () => {
     console.log(hello);
 }
 
-helloWorld();
+helloWorld(); 

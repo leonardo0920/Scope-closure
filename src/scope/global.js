@@ -1,17 +1,22 @@
-var hello = 'Hello';
-let wolrd = 'Hello world';
+var a; //declarando
+var b = 'b'; // declarando / asignando
+b = 'bb'; // reasignando
+var a = 'a'; //redeclarando
 
-const anotherFunction = () => {
-    console.log(hello);
-    console.log(wolrd);
-    console.log(helloWorld);
+
+//Global scope
+var fruit = 'Apple'; //Global
+
+function bestFruit() {
+    console.log(fruit);
 }
 
-anotherFunction();
+bestFruit();
 
-const helloWorld = () => {
-    globalVar = 'im global';
+function countries() {
+    countries = "Venezuela"; //Global
+    console.log(countries);
 }
 
-helloWorld();
-console.log(globalVar);
+countries();
+console.log(countries);

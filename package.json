@@ -6,6 +6,15 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Leonardo Davila",
-  "license": "ISC"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leonardo0920/Scope-closure.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/leonardo0920/Scope-closure/issues"
+  },
+  "homepage": "https://github.com/leonardo0920/Scope-closure#readme"
 }
